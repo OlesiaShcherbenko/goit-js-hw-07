@@ -81,3 +81,30 @@ h1 {
 }
 
 /* #endregion */
+
+/* #region Task 4 */
+
+.login-form {
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.login-form button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+/* #endregion */
