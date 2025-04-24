@@ -108,13 +108,47 @@ button {
 }
 
 button:hover {
-    background-color: #6C8CFF;
+  background-color: #6c8cff;
 }
 
 /* #endregion */
 
 /* #region Task 5 */
 
+/* #endregion */
 
+/* #region Task 6 */
+
+#controls {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  margin: 0;
+}
+
+.destroy {
+  background-color: #ff4e4e;
+}
+
+.destroy:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
 
 /* #endregion */
